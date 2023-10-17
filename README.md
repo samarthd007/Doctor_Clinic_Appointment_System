@@ -17,7 +17,7 @@ set up the port which you want to liten to in with PORT
 
 then run npm install in project folder to install all project dependencies
 
-run npm start and hit the api calls starting from register controller
+run npm start in frontend folder to start the application 
 
 
 Application Schema
