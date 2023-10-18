@@ -19,6 +19,8 @@ then run npm install in project folder to install all project dependencies
 
 run npm start in frontend folder to start the application 
 
+Live Link: https://doctor-appointmentsystem.onrender.com
+
 
 Application Schema
 
