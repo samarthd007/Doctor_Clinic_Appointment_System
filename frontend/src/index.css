@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+/* ANTD overide */
+.ant-picker-input input {
+    border: none !important;
+}
+
+.min-title title {
+    font-size: 16px !important;
+}
+.ant-picker {
+    height: 40px !important;
+    border-radius: 2px !important;
+    border: 1px solid gray !important;
+}
+
+.ant-btn-primary {
+    background-color: rgb(24, 30, 87);
+}
+input {
+    border-radius: 2px !important;
+    border: 1px solid gray !important;
+    height: 40px !important;
+}
+
+input:focus,
+.ant-picke {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid gray !important;
+}
+
+.ant-form-item {
+    margin: 10px 0px !important;
+}
+
+label {
+    font-size: 16px !important;
+    color: black;
+}
+
+/* Common Styling */
+.not-exceed {
+    padding: 20px;
+    max-height: calc(100% - 40px);
+    overflow: auto;
+}
+
+.final-appointment {
+    font-size: 40px;
+    color: rgba(39, 179, 58, 0.712);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sub-final {
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.image-container {
+    margin-left: -400px;
+    height: 300px;
+    transform: translateX(0);
+}
+.fit-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto; /* Set the width to auto so that it scales proportionally */
+    height: auto; /* Set the height to auto so that it scales proportionally */
+}
+.active {
+    transform: translateX(0);
+}
+
+img:not(.active) {
+    transform: translateX(100%);
+}
+
+.clinic {
+    font-size: 18px !important;
+    text-decoration: none !important;
+}
+
+.profile-title {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: bold;
+}
+.appoint {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.card {
+    box-shadow: 0 0 2px grey;
+}
+
+.page-title {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: bold;
+}
+
+.sub-title {
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: bold;
+}
+
+.spinner-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+}
+
+.spinner-border {
+    width: 5rem;
+    height: 5rem;
+}
+
+.primary-button {
+    color: white;
+    background-color: rgba(6, 89, 92, 0.938);
+    width: 100%;
+    border-color: rgb(21, 18, 63);
+    font-size: 16 px;
+    width: max-content !important;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.normal-text {
+    font-size: 1rem;
+}
+
+.anchor {
+    color: black;
+    text-decoration: underline;
+    font-size: 16px !important;
+}
+.anchor :hover {
+    text-decoration: underline !important;
+}
+
+/* Authentication pages */
+.auth {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth .card-title {
+    font-size: 1rem;
+    font-size: bold;
+    background-color: orangered;
+    color: white;
+    max-width: max-content !important;
+    padding: 7px 15px;
+    margin-left: -40px;
+    border-bottom-left-radius: 10px;
+}
+
+.register-form {
+    width: 400px;
+}
