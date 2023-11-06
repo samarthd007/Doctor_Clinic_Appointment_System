@@ -17,7 +17,9 @@ set up the port which you want to liten to in with PORT
 
 then run npm install in project folder to install all project dependencies
 
-run npm start in frontend folder to start the application 
+migrate to frontend and hit npm install to frontend dependencies
+
+run npm start in frontend folder to start the application  and npm start in main folder to start the backend
 
 Live Link: https://doctor-appointmentsystem.onrender.com
 
